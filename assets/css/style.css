@@ -5,7 +5,7 @@
 }
 
 body {
-  background-image: url("style-annie-woods.jpg");
+  background-image: url("../img/style-annie-woods.jpg");
   background-position: center;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -67,11 +67,9 @@ nav .active {
 
 footer {
   text-align: center;
-  /* position: static; */
   padding: 10px 10px 0px 10px;
   bottom: 0;
   width: 100%;
-  /* Height of the footer*/
   height: 40px;
   color: white;
 }

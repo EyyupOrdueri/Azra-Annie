@@ -1,7 +1,9 @@
-body {
-  background-image: url("");
-  background-color: #acf7fa;
-}
+/* body {
+  background-image: url("../img/background.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+} */
 
 .photo-div {
   margin-top: 60px;
@@ -9,6 +11,7 @@ body {
 }
 .photo-div h1 {
   font-size: 40px;
+  color: white;
 }
 .grid-container {
   margin-top: 25px;
@@ -29,61 +32,60 @@ body {
 .grid-container > div > img {
   width: 175px;
   height: auto;
-
   object-fit: cover;
 }
 
 #item1 {
-  background: url("./gallery-1.jpg");
+  background: url("../img/gallery-1.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item2 {
-  background: url("./gallery-2.jpg");
+  background: url("../img/gallery-2.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item3 {
-  background: url("./gallery-3.jpg");
+  background: url("../img/gallery-3.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item4 {
-  background: url("./gallery-4.jpg");
+  background: url("../img/gallery-4.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item5 {
-  background: url("./gallery-5.jpg");
+  background: url("../img/gallery-5.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item6 {
-  background: url("./gallery-6.jpg");
+  background: url("../img/gallery-6.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item7 {
-  background: url("./gallery-7.jpg");
+  background: url("../img/gallery-7.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item9 {
-  background: url("./gallery-9.jpg");
+  background: url("../img/gallery-9.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
 
 #item8 {
   grid-area: 1 / 2 / 5 / 6;
-  background: url("./gallery-8.jpg");
+  background: url("../img/gallery-8.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
