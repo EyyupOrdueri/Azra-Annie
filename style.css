@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("style-annie-woods.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* navbar */
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+
+nav li {
+  float: right;
+}
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+nav .active {
+  background-color: rgb(142, 10, 10);
+}
+
+#container {
+  margin-top: 250px;
+  color: rgb(239, 232, 171);
+  text-align: center;
+}
+
+#container h1 {
+  font-size: 120px;
+}
+
+#container h4 {
+  font-size: 30px;
+}
+
+#container p {
+  font-size: 15px;
+}
+
+footer {
+  text-align: center;
+  /* position: static; */
+  padding: 10px 10px 0px 10px;
+  bottom: 0;
+  width: 100%;
+  /* Height of the footer*/
+  height: 40px;
+  color: white;
+}
+
+#heart {
+  color: red;
+  font-size: 1rem;
+}
+
+img {
+  width: 50px;
+  height: 50px;
+}

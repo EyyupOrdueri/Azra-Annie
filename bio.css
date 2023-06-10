@@ -1,0 +1,37 @@
+body {
+  background-image: url("");
+}
+
+.bio-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+h2,
+h3 {
+  text-align: center;
+}
+
+.left {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding-top: 60px;
+}
+
+.left p {
+  margin: 10px 20%;
+}
+
+.right {
+  width: 50%;
+  background-color: black;
+}
+
+.right img {
+  margin-top: 200px;
+  margin-left: 25%;
+  width: 450px;
+  height: 450px;
+}
